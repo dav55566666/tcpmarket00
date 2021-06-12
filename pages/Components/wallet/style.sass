@@ -1,0 +1,930 @@
+.wallet
+  width: 100%
+  background: #F3F6FB
+  .wallet-cont
+    max-width: 1440px
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: stretch
+    margin: 0 auto
+    height: 100%
+    .wallet-cont-links
+      max-width: 252px
+      width: 100%
+      background: #FFFFFF
+      box-shadow: 2px 0px 10px rgba(9, 53, 63, 0.15)
+      padding: 12px 0
+      position: relative
+      .wallet-cont-links-box
+        position: sticky
+        top: 10px
+      a
+        padding: 4px 20px
+        width: 100%
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        font-family: PT Sans
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 150%
+        color: #28323C
+        margin-bottom: 8px
+        transition: all 0.5s
+        svg
+          margin-right: 12px
+          path
+            transition: all 0.5s
+        &:hover
+          background: #DFF5FF
+      a:nth-child(1)
+        color: #5F73DC
+        path
+          fill: #5F73DC!important
+    .wallet-cont-info
+      max-width: 1188px
+      width: 100%
+      padding: 24px 30px 56px
+      display: flex
+      justify-content: space-between
+      align-items: flex-start
+    .wallet-cont-info-mobilde
+      display: none
+    .wallet-cont-info-left
+      max-width: 552px
+      width: 100%
+      margin-right: 15px
+    .wallet-cont-info-wallets
+      width: 100%
+      margin-bottom: 24px
+      h2
+        font-family: Proxima Nova
+        font-style: normal
+        font-weight: 600
+        font-size: 18px
+        line-height: 100%
+        color: #28323C
+        margin-bottom: 16px
+      .wallet-cont-info-wallets-flex
+        display: flex
+        justify-content: flex-start
+        overflow: auto
+        align-items: flex-start
+        &::-webkit-scrollbar
+          width: 0
+        a
+          width: max-content
+          min-width: max-content
+          padding: 12px 24px
+          background: #FFFFFF
+          box-shadow: 0px 0px 15px rgba(115, 200, 235, 0.15)
+          border-radius: 40px
+          margin-right: 16px
+          font-family: Proxima Nova
+          font-style: normal
+          font-weight: 600
+          font-size: 16px
+          line-height: 100%
+          transition: all 0.5s
+          text-transform: uppercase
+          color: #28323C
+          &:first-child
+            color: #5F73DC
+          &:hover
+            background: #DFF5FF
+    .wallet-cont-info-left-yourwallet
+      width: 100%
+      margin-bottom: 24px
+      h2
+        font-family: Proxima Nova
+        font-style: normal
+        font-weight: 600
+        font-size: 18px
+        line-height: 100%
+        color: #28323C
+        margin-bottom: 16px
+      .wallet-cont-info-left-yourwallet-box
+        width: 100%
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        padding: 16px
+        background: #FFFFFF
+        border-radius: 10px
+        .wallet-cont-info-left-yourwallet-box-img
+          max-width: 56px
+          width: 100%
+          height: 56px
+          margin-right: 18px
+          img
+            width: 100%
+        .wallet-cont-info-left-yourwallet-box-text
+          width: 100%
+          h4
+            font-family: Proxima Nova
+            font-style: normal
+            font-weight: 600
+            font-size: 18px
+            line-height: 100%
+            color: #28323C
+            margin-bottom: 14px
+          .wallet-cont-info-left-yourwallet-box-text-flex
+            max-width: 372px
+            width: 100%
+            display: flex
+            justify-content: space-between
+            align-items: center
+            a
+              display: flex
+              justify-content: flex-start
+              align-items: center
+              font-family: PT Sans
+              font-style: normal
+              font-weight: normal
+              font-size: 16px
+              line-height: 150%
+              color: #A5B4C3
+              transition: all 0.5s
+              img
+                margin-left: 8px
+                transition: all 0.5s
+              &:hover
+                filter: brightness(0.5)
+    .wallet-cont-info-left-cryptowallets
+      width: 100%
+      margin-bottom: 16px
+      h2
+        font-family: Proxima Nova
+        font-style: normal
+        font-weight: 600
+        font-size: 18px
+        line-height: 100%
+        color: #28323C
+        margin-bottom: 16px
+      .storijs
+        height: 334px
+        width: 100%
+        overflow: hidden
+      .wallet-cont-info-left-cryptowallets-box
+        width: 100%
+        padding: 16px
+        background: #FFFFFF
+        border-radius: 10px
+        .cryptowallets-box-item
+          width: 100%
+          padding: 8px 0
+          display: flex
+          justify-content: space-between
+          align-items: stretch
+          border-bottom: 1px solid #F3F6FB
+          &:first-child
+            padding-top: 0
+          &:last-child
+            padding-bottom: 0
+            border-bottom: unset
+          .centralp
+            font-family: PT Sans
+            font-style: normal
+            font-weight: normal
+            font-size: 12px
+            line-height: 100%
+            color: #A5B4C3
+            display: flex
+            justify-content: flex-start
+            align-items: flex-start
+            margin-top: 4px
+            width: 100%
+            max-width: 109px
+            span
+              font-family: PT Sans
+              font-style: normal
+              font-weight: normal
+              font-size: 12px
+              line-height: 100%
+              color: #28323C
+              margin-left: 4px
+          .cryptowallets-box-item-left
+            display: flex
+            justify-content: flex-start
+            max-width: 256px
+            width: 100%
+            align-items: center
+            .cryptowallets-box-item-left-img
+              max-width: 40px
+              width: 100%
+              margin-right: 16px
+              height: 40px
+              img
+                width: 100%
+            .cryptowallets-box-item-left-text
+              p
+                font-family: PT Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 150%
+                color: #28323C
+              .storitype
+                font-family: PT Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 150%
+                color: #28323C
+              .cryptowallets-box-item-left-text-bottom
+                display: flex
+                justify-content: flex-start
+                align-items: center
+                margin-top: 4px
+                p
+                  font-family: PT Sans
+                  font-style: normal
+                  font-weight: bold
+                  font-size: 12px
+                  line-height: 100%
+                  color: #28323C
+                  margin-right: 4px
+                .storyprice
+                  font-family: PT Sans
+                  font-style: normal
+                  font-weight: normal
+                  font-size: 12px
+                  line-height: 100%
+                  color: #A5B4C3
+                span
+                  font-family: PT Sans
+                  font-style: normal
+                  font-weight: normal
+                  font-size: 12px
+                  line-height: 100%
+                .smooth
+                  color: #A5B4C3
+                .plus
+                  color: #3CC8B4
+                .minus
+                  color: #F0507D
+          .cryptowallets-box-item-right
+            display: flex
+            justify-content: flex-end
+            align-items: center
+            .cryptowallets-box-item-right-text
+              margin-right: 12px
+              p
+                font-family: Proxima Nova
+                font-style: normal
+                font-weight: 600
+                font-size: 18px
+                line-height: 100%
+                text-transform: uppercase
+                color: #28323C
+                text-align: right
+
+              .green
+                color: #3CC8B4
+              .red
+                color: #F0507D
+              span
+                font-family: PT Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 12px
+                margin-top: 10px
+                line-height: 100%
+                display: block
+                text-align: right
+                color: #A5B4C3
+              .cryptowallets-box-item-right-text-img
+                display: flex
+                justify-content: flex-end
+                margin-top: 6px
+                align-items: center
+                img:nth-child(2)
+                  margin-left: 8px
+            button
+              width: 24px
+              height: 24px
+              padding: 0
+              display: flex
+              justify-content: space-between
+              align-items: center
+              flex-direction: column
+              background: unset
+              border: unset
+              transition: all 0.5s
+              &:hover
+                filter: brightness(0.5)
+              span
+                display: block
+                width: 4px
+                height: 4px
+                border-radius: 50%
+                background: #A5B4C3
+          .cryptowallets-box-item-right2
+            max-width: 120px
+            width: 100%
+    .showallbtn
+      width: 100%
+      height: 24px
+      padding: 0
+      background: unset
+      margin-top: 8px
+      border: unset
+      cursor: pointer
+      font-family: PT Sans
+      font-style: normal
+      font-weight: normal
+      font-size: 16px
+      line-height: 150%
+      color: #A5B4C3
+    .cryptowallet-js
+      height: 278px
+      transition: all 1s
+      overflow: hidden
+    .accounts
+      margin-top: 24px
+      display: block
+      .wallet-cont-info-left-cryptowallets
+        margin-bottom: 0
+    .wallet-cont-info-rigth
+      margin-top: 98px
+      max-width: 552px
+      width: 100%
+    .wallet-cont-info-rigth-top
+      width: 100%
+      display: flex
+      justify-content: space-between
+      align-items: flex-start
+      margin-bottom: 24px
+    .wallet-cont-info-rigth-top-balance
+      max-width: 264px
+      width: 100%
+      min-width: 230px
+    h2
+      font-family: Proxima Nova
+      font-style: normal
+      font-weight: 600
+      font-size: 18px
+      line-height: 100%
+      color: #28323C
+      margin-bottom: 16px
+    .balance-box
+      width: 100%
+      max-width: 330px
+      padding: 16px
+      background: #FFFFFF
+      border-radius: 10px
+      margin-bottom: 24px
+      p
+        font-family: Proxima Nova
+        font-style: normal
+        font-weight: 600
+        font-size: 28px
+        line-height: 100%
+        text-transform: uppercase
+        color: #5F73DC
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        margin-bottom: 16px
+        img
+          margin-left: 16px
+      a
+        font-family: PT Sans
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 150%
+        color: #A5B4C3
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        transition: all 0.5s
+        img
+          margin-left: 8px
+          transition: all 0.5s
+        &:hover
+          filter: brightness(0.5)
+    .card
+      width: 100%
+      .card-title
+        width: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 10px
+        h2
+          margin-bottom: 0
+        a
+          font-family: PT Sans
+          font-style: normal
+          font-weight: normal
+          font-size: 16px
+          line-height: 150%
+          color: #A5B4C3
+          transition: all 0.5s
+          &:hover
+            filter: brightness(0.5)
+      .card-box
+        width: 100%
+        .card-box-item
+          width: 100%
+          padding: 16px
+          background: #FFFFFF
+          border-radius: 10px
+          margin-bottom: 16px
+          .card-box-item-top
+            width: 100%
+            display: flex
+            justify-content: space-between
+            align-items: center
+            p
+              font-family: PT Sans
+              font-style: normal
+              font-weight: normal
+              font-size: 16px
+              line-height: 150%
+              color: #28323C
+            button
+              width: 24px
+              height: 24px
+              padding: 0
+              display: flex
+              justify-content: space-between
+              align-items: center
+              flex-direction: column
+              background: unset
+              border: unset
+              transition: all 0.5s
+              &:hover
+                filter: brightness(0.5)
+              span
+                display: block
+                width: 4px
+                height: 4px
+                border-radius: 50%
+                background: #A5B4C3
+          .cardkod
+            margin: 16px 0 2px
+            font-family: PT Sans
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 150%
+            color: #28323C
+          .card-balance
+            width: 100%
+            display: flex
+            justify-content: space-between
+            align-items: flex-end
+            p
+              font-family: Proxima Nova
+              font-style: normal
+              font-weight: 600
+              font-size: 24px
+              line-height: 100%
+              text-transform: uppercase
+              color: #28323C
+            img
+        .arrovbtn
+          background: unset
+          border: unset
+          padding: 0
+          margin: 0 auto
+          display: block
+          cursor: pointer
+        .addcard
+          display: none
+          justify-content: center
+          align-items: center
+          display: none
+          max-width: 264px
+          width: 100%
+          background: rgba(255, 255, 255, 0.6)
+          border-radius: 10px
+          font-family: PT Sans
+          font-style: normal
+          font-weight: normal
+          font-size: 16px
+          line-height: 150%
+          color: #A5B4C3
+          img
+            margin-left: 8px
+    .wallet-cont-info-rigth-top-income
+      max-width: 264px
+      margin-left: 10px
+      .wallet-cont-info-rigth-top-income-links
+        width: 100%
+        padding: 12px 0
+        background: #FFFFFF
+        border-radius: 10px
+        a
+          width: 100%
+          display: flex
+          justify-content: flex-start
+          align-items: center
+          transition: all 0.5s
+          padding: 4px 16px
+          margin-bottom: 8px
+          font-family: PT Sans
+          font-style: normal
+          font-weight: normal
+          font-size: 16px
+          line-height: 150%
+          color: #28323C
+          &:last-child
+            margin-bottom: 0
+          img
+            margin-right: 8px
+            transition: all 0.5s
+          &:hover
+            background: rgba(215, 243, 255, 0.8)
+      .wallet-cont-info-rigth-top-income-title
+        width: 100%
+        margin-bottom: 16px
+        width: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        h2
+          font-family: Proxima Nova
+          font-style: normal
+          font-weight: 600
+          font-size: 18px
+          line-height: 100%
+          color: #28323C
+        p
+          font-family: Proxima Nova
+          font-style: normal
+          font-weight: 600
+          font-size: 18px
+          line-height: 100%
+          display: flex
+          justify-content: flex-end
+          align-items: center
+          color: #3CC8B4
+          img
+            margin-right: 4px
+      .mySwiper
+        width: 100%
+        padding: 24px 16px 40px
+        background: #FFFFFF
+        border-radius: 10px
+        margin-bottom: 24px
+        overflow: hidden
+        .swiper-pagination
+          bottom: 16px
+          display: flex
+          justify-content: center
+          align-items: center
+          margin-top: 16px
+          .swiper-pagination-bullet
+            width: 8px
+            height: 8px
+            opacity: 1
+            background: #D7E1EB
+            border-radius: 2px
+          .swiper-pagination-bullet-active
+            background: #73C8EB
+.wallet .wallet-cont .wallet-cont-info-rigth-top-income .wallet-cont-info-rigth-top-income-title h2
+  margin-bottom: 0
+.mobilemenuwallet
+  display: none
+@media(max-width: 1250px)
+  .wallet
+    width: 100%
+    background: #F3F6FB
+    .wallet-cont
+      .wallet-cont-links
+        max-width: 56px
+        min-width: 56px
+        overflow: hidden
+        padding: 12px 0
+        position: fixed
+        top: 0
+        padding-top: 68px
+        z-index: 0
+        left: 0
+        height: 100%
+        .wallet-cont-links-box
+          position: sticky
+          top: 10px
+        a
+          padding: 4px 12px
+          font-size: 16px
+          margin-bottom: 8px
+          svg
+            margin-right: 12px
+            min-width: 32px
+      .wallet-cont-info
+        display: none
+      .wallet-cont-info-mobilde
+        display: unset
+        max-width: 100%
+        padding: 24px 20px
+        width: 100%
+        padding-left: 76px
+      .card
+        width: 100%
+        margin-bottom: 24px
+        overflow: auto
+        width: 100%
+        .card-title
+          width: 100%
+          display: flex
+          justify-content: space-between
+          align-items: center
+          margin-bottom: 10px
+          h2
+            margin-bottom: 0
+          a
+            display: none
+        .card-box
+          width: 100%
+          display: flex
+          justify-content: flex-start
+          align-items: stretch
+          overflow: scroll
+          .overflocard
+            display: flex
+            justify-content: space-between
+            align-items: stretch
+          .card-box-item
+            width: 100%
+            margin-right: 8px
+            padding: 16px
+            min-width: 264px
+            max-width: 264px
+            background: #FFFFFF
+            border-radius: 10px
+            margin-bottom: 0
+            .card-box-item-top
+              width: 100%
+              display: flex
+              justify-content: space-between
+              align-items: center
+              p
+                font-family: PT Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 150%
+                color: #28323C
+              button
+                width: 24px
+                height: 24px
+                padding: 0
+                display: flex
+                justify-content: space-between
+                align-items: center
+                flex-direction: column
+                background: unset
+                border: unset
+                transition: all 0.5s
+                &:hover
+                  filter: brightness(0.5)
+                span
+                  display: block
+                  width: 4px
+                  height: 4px
+                  border-radius: 50%
+                  background: #A5B4C3
+            .cardkod
+              margin: 16px 0 2px
+              font-family: PT Sans
+              font-style: normal
+              font-weight: normal
+              font-size: 16px
+              line-height: 150%
+              color: #28323C
+            .card-balance
+              width: 100%
+              display: flex
+              justify-content: space-between
+              align-items: flex-end
+              p
+                font-family: Proxima Nova
+                font-style: normal
+                font-weight: 600
+                font-size: 24px
+                line-height: 100%
+                text-transform: uppercase
+                color: #28323C
+              img
+          .arrovbtn
+            display: none
+          .addcard
+            display: flex
+            justify-content: center
+            align-items: center
+            max-width: 264px
+            min-width: 264px
+            width: 100%
+            background: rgba(255, 255, 255, 0.6)
+            border-radius: 10px
+            font-family: PT Sans
+            font-style: normal
+            font-weight: normal
+            font-size: 16px
+            line-height: 150%
+            color: #A5B4C3
+            svg
+              margin-left: 8px
+  .wallet .wallet-cont .wallet-cont-info-left-cryptowallets
+    margin-top: 24px
+  .wallet .wallet-cont .wallet-cont-info-rigth-top-income
+    max-width: 100%
+    width: 100%
+    margin-left: 0
+  .wallet .wallet-cont .wallet-cont-info-rigth-top-income .mySwiper
+    padding: 0
+    background: unset
+    box-shadow: unset
+    .swiper-pagination
+      display: none
+    .swiper-slide
+      width: 100%
+      max-width: 330px
+      margin-right: 12px!important
+      padding: 24px 16px 16px
+      background: #FFFFFF
+      border-radius: 10px
+      img
+        width: 100%
+        height: 118px
+  .wallet .wallet-cont .wallet-cont-info-rigth-top-income .wallet-cont-info-rigth-top-income-links
+    background: unset
+    padding: unset
+    box-shadow: unset
+    display: flex
+    justify-content: flex-start
+    align-items: center
+    overflow: auto
+    max-width: 1000px
+    a
+      padding: 12px
+      max-width: max-content
+      min-width: max-content
+      background: #FFFFFF
+      box-shadow: 0px 0px 15px rgba(115, 200, 235, 0.15)
+      border-radius: 20px
+      font-family: Proxima Nova
+      font-style: normal
+      font-weight: 600
+      font-size: 16px
+      line-height: 100%
+      text-transform: uppercase
+      margin-bottom: 0
+      margin-right: 8px
+      color: #28323C
+@media(max-width: 500px)
+  .wallet .wallet-cont h2
+    margin-bottom: 12px
+  .mobilemenuwallet
+    display: flex
+    justify-content: space-between
+    align-items: center
+    width: 100%
+    padding: 14px 12px
+    background: #FFFFFF
+    box-shadow: 0px 4px 10px rgba(145, 145, 145, 0.15)
+    p
+      font-family: Proxima Nova
+      font-style: normal
+      font-weight: 600
+      font-size: 18px
+      line-height: 100%
+      /* identical to box height, or 18px */
+
+
+      /* Secondary/Black Dark */
+
+      color: #28323C
+  .wallet
+    width: 100%
+    background: #F3F6FB
+    .wallet-cont
+      flex-direction: column
+      .wallet-cont-links
+        display: none
+  .ant-dropdown
+    .wallet-cont-links
+      .wallet-cont-links-box
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        a
+          display: flex
+          justify-content: flex-start
+          align-items: center
+          padding: 4px 12px
+  .wallet
+    width: 100%
+    background: #F3F6FB
+    .wallet-cont
+      .wallet-cont-info-mobilde
+        padding: 24px 12px
+  .wallet .wallet-cont .wallet-cont-info-wallets
+    margin-bottom: 0px
+    h2
+      margin-bottom: 12px
+  .wallet .wallet-cont .wallet-cont-info-wallets .wallet-cont-info-wallets-flex
+    padding-bottom: 2px
+    &::-webkit-scrollbar
+      width: 0
+  .wallet .wallet-cont .wallet-cont-info-left-yourwallet
+    margin-bottom: 22px
+    h2
+      margin-bottom: 12px
+    .wallet-cont-info-left-yourwallet-box
+      padding: 10px
+      .wallet-cont-info-left-yourwallet-box-img
+        min-width: 70px
+        height: 70px
+        margin-right: 9px
+      .wallet-cont-info-left-yourwallet-box-text
+        h4
+          margin-bottom: 8px
+          font-size: 16px
+          line-height: 100%
+        .wallet-cont-info-left-yourwallet-box-text-flex
+          justify-content: flex-end
+          a
+            width: 30px
+            overflow: hidden
+            text-align: right
+            justify-content: flex-end
+            color: transparent
+            flex-direction: row-reverse
+            margin-left: 14px
+            height: 30px
+            img
+              min-width: 30px
+              position: relative
+              left: -7px
+  .wallet .wallet-cont .balance-box
+    margin-bottom: 22px
+  .wallet .wallet-cont .card
+    margin-bottom: 22px
+  .wallet .wallet-cont .wallet-cont-info-left-cryptowallets
+    h2
+      margin-bottom: 12px
+    .wallet-cont-info-left-cryptowallets-box
+      padding: 10px
+      .cryptowallets-box-item
+        padding: 8px 0
+        .centralp
+          display: none
+        .cryptowallets-box-item-left
+          max-width: 256px
+          .cryptowallets-box-item-left-img
+            min-width: 40px
+            margin-right: 8px
+            height: 40px
+          .cryptowallets-box-item-left-text
+            p
+              font-size: 16px
+              line-height: 150%
+            .storitype
+              font-size: 16px
+              line-height: 150%
+            .cryptowallets-box-item-left-text-bottom
+              margin-top: 4px
+              p
+                font-size: 12px
+                margin-right: 4px
+              .storyprice
+                font-size: 12px
+              span
+                font-size: 12px
+        .cryptowallets-box-item-right
+          .cryptowallets-box-item-right-text
+            margin-right: 0
+            p
+              font-size: 16px
+            span
+              display: none
+            .cryptowallets-box-item-right-text-img
+              display: none
+          button
+            width: 24px
+            height: 24px
+            span
+              width: 4px
+              height: 4px
+        .cryptowallets-box-item-right2
+          max-width: 120px
+  .wallet .wallet-cont .balance-box
+    max-width: unset
+    a
+      flex-direction: row-reverse
+      width: 30px
+      height: 30px
+      overflow: hidden
+      color: transparent
+      img
+        width: 30px
+        height: 30px
+        position: relative
+        left: 66px

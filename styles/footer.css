@@ -1,0 +1,102 @@
+@font-face {
+  font-family: Pt-sans;
+  src: url(../public/fonts/PTSans-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+footer {
+  background: #323C46;
+  margin-top: 0px;
+  font-family: Pt-sans;
+  color: #F3F6FB;
+  padding: 0 16px
+}
+footer .footer-section {
+  max-width: 1176px;
+  margin: 0 auto;
+}
+footer .footer-section section:last-child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+footer .footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      border-bottom: 1px solid #73879B;
+}
+footer .footer-list section h2{
+  font-size: 18px;
+  color: #F3F6FB;
+}
+footer .footer-list section {
+  padding: 40px 0px 24px 0px;
+  width: 220px;
+}
+footer .footer-list section ul {
+  margin-top: 16px;
+}
+footer ul {
+  color: #F3F6FB;
+  line-height: 150%;
+}
+footer a {
+  color: #F3F6FB;
+}
+footer .trade-change {
+  text-align: center;
+  padding: 25px 0px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%;
+  color: #73879B;
+}
+footer #lang {
+  border-radius: 30px;
+background: transparent;
+border: none;
+padding: 10px 0px;
+margin: 15px 0;
+width: 35%;
+letter-spacing: 0px;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #F3F6FB;
+text-align: left;
+    margin-left: -4px;
+}
+footer #lang optgroup {
+  content: "";
+  border-bottom: 1px solid white;
+  position: absolute;
+}
+footer .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 57%;
+}
+footer .social-links a svg path{
+  transition: all 0.5s;
+  fill: #D7E1EB!important;
+}
+footer .social-links a:hover svg path{
+  fill: #AAA0FA!important
+}

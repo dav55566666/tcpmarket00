@@ -1,0 +1,698 @@
+.ant-slider-mark
+  display: none!important
+.oform
+  padding: 40px 16px
+  .oform-cont
+    max-width: 1170px
+    width: 100%
+    margin: 0 auto
+    h1
+      margin-bottom: 24px
+      font-family: Proxima Nova
+      font-style: normal
+      font-weight: 600
+      font-size: 24px
+      line-height: 100%
+      text-transform: uppercase
+      color: #28323C
+    .oform-cont-flex
+      width: 100%
+      display: flex
+      justify-content: space-between
+      align-items: flex-start
+      .oform-cont-left
+        max-width: 776px
+        width: 100%
+        margin-right: 10px
+        .oform-cont-left-adres
+          width: 100%
+          margin-bottom: 24px
+          p
+            font-family: Proxima Nova
+            font-style: normal
+            font-weight: 600
+            font-size: 18px
+            line-height: 100%
+            color: #28323C
+          .oform-cont-left-adres-box
+            width: 100%
+            background: #FFFFFF
+            border-radius: 10px
+            padding: 23px 22px 20px
+            margin-top: 16px
+            .oform-cont-left-adres-box-chek
+              width: 100%
+              label
+                display: flex
+                justify-content: flex-start
+                align-items: center
+                position: relative
+                margin-bottom: 18px
+                &:nth-child(1)
+                  margin-bottom: 19px
+                input
+                  position: absolute
+                  left: 0
+                  top: 0
+                  width: 100%
+                  height: 100%
+                  z-index: 2
+                  opacity: 0
+                  cursor: pointer
+                span
+                  border: 1px solid #D7E1EB
+                  width: 16px
+                  height: 16px
+                  border-radius: 50%
+                  display: flex
+                  justify-content: center
+                  align-items: center
+                  position: relative
+                  padding: 2px 0
+                  &::before
+                    content: ""
+                    background: #5F73DC
+                    width: 12px
+                    height: 12px
+                    position: relative
+                    border-radius: 50%
+                    opacity: 0
+                    transition: all 0.5s
+                input:checked ~ span
+                  &::before
+                    opacity: 1
+                p
+                  margin: 0 9px 0 16px
+                  font-family: Proxima Nova
+                  font-style: normal
+                  font-weight: 600
+                  font-size: 18px
+                  margin-bottom: 0
+                  display: flex
+                  justify-content: center
+                  align-items: center
+                  line-height: 100%
+                  color: #28323C
+              .oform-cont-left-adres-box-chek-adres
+                padding-left: 32px
+                margin-bottom: 25px
+                p
+                  font-family: PT Sans
+                  font-style: normal
+                  font-weight: normal
+                  font-size: 16px
+                  line-height: 150%
+                  color: #28323C
+            .oform-cont-left-adres-box-text
+              width: 100%
+              padding-left: 32px
+              display: flex
+              justify-content: space-between
+              flex-wrap: wrap
+              align-items: flex-start
+              label
+                width: 48.2%
+                font-family: PT Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 150%
+                color: #28323C
+                margin-bottom: 8px
+                &:nth-child(5),&:nth-child(6),&:nth-child(7),&:nth-child(8)
+                  width: 22.44%
+                  margin-bottom: 0
+                input
+                  width: 100%
+                  height: 40px
+                  margin-top: 4px
+                  border: 1px solid #D7E1EB
+                  box-sizing: border-box
+                  border-radius: 6px
+                  padding: 0 12px
+                  font-family: PT Sans
+                  font-style: normal
+                  font-weight: normal
+                  font-size: 16px
+                  line-height: 150%
+                  color: #A5B4C3
+        .oform-cont-left-strax
+          width: 100%
+          margin-bottom: 24px
+          .titlep
+            margin-bottom: 16px
+            font-family: Proxima Nova
+            font-style: normal
+            font-weight: 600
+            font-size: 18px
+            line-height: 100%
+            color: #28323C
+          .oform-cont-left-strax-box
+            width: 100%
+            background: #FFFFFF
+            border-radius: 10px
+            padding: 20px
+            p
+              font-family: PT Sans
+              font-style: normal
+              font-weight: normal
+              font-size: 16px
+              line-height: 150%
+              color: #28323C
+              display: flex
+              justify-content: flex-start
+              align-items: center
+              &:nth-child(1)
+                margin-bottom: 8px
+              span
+                margin-left: 8px
+                font-family: Proxima Nova
+                font-style: normal
+                font-weight: 600
+                font-size: 18px
+                line-height: 100%
+                color: #28323C
+            .oform-cont-left-strax-range
+              width: 100%
+              margin: 4px 0 8px
+              display: flex
+              justify-content: flex-start
+              align-items: center
+              position: relative
+              &::after
+                content: url("/icons/Vectasdasacsor.png")
+                position: relative
+                margin-left: 10px
+                margin-bottom: 5px
+              p
+                width: 51px
+                height: 40px
+                padding: 0 12px
+                display: flex
+                justify-content: flex-start
+                align-items: center
+                border: 1px solid #D7E1EB
+                box-sizing: border-box
+                border-radius: 6px
+                font-family: PT Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 150%
+                color: #A5B4C3
+              .ant-slider
+                margin-left: 16px
+                max-width: 190px
+                width: 100%
+                height: 3px
+                margin: 0 0 0 16px
+                padding: 0
+                bottom: 5px
+              .ant-slider-track
+                background: #5F73DC
+              .ant-slider-handle.ant-tooltip-open
+                background: #5F73DC
+                border-color: #5F73DC
+
+        .oform-cont-left-sposob
+          width: 100%
+          .ant-tabs-tabpane
+            padding: 0
+          .ant-tabs-nav
+            width: 100%!important
+            max-width: unset
+          .ant-tabs-nav::before
+            display: none
+          .titlep
+            font-family: Proxima Nova
+            font-style: normal
+            font-weight: 600
+            font-size: 18px
+            line-height: 100%
+            color: #28323C
+            margin-bottom: 16px
+          .ant-tabs-tab
+            padding: 0
+            margin: 0 8px 0 0!important
+          .ant-tabs-tab-btn
+            padding: 11px 12px
+            background: #FFFFFF
+            box-shadow: 0px 0px 15px rgba(115, 200, 235, 0.15)
+            border-radius: 30px
+            margin: 0!important
+            div
+              display: flex
+              justify-content: flex-start
+              align-items: center
+              p
+                font-family: Proxima Nova
+                font-style: normal
+                font-weight: 600
+                font-size: 16px
+                line-height: 100%
+                text-transform: uppercase
+                color: #28323C
+                margin-left: 8px
+          .ant-tabs-tab-active
+            div
+              svg
+                path
+                  fill: #5F73DC!important
+              p
+                color: #5F73DC
+          .oform-cont-left-sposob-box
+            width: 100%
+            padding: 20px 20px 32px
+            background: #FFFFFF
+            border-radius: 10px
+
+            p
+              font-family: PT Sans
+              font-style: normal
+              font-weight: normal
+              font-size: 16px
+              line-height: 150%
+              color: #28323C
+              display: flex
+              justify-content: flex-start
+              align-items: center
+              span
+                font-family: Proxima Nova
+                font-style: normal
+                font-weight: 600
+                font-size: 18px
+                line-height: 100%
+                color: #28323C
+                margin-left: 8px
+            .oform-cont-left-sposob-box-paymentcard
+              max-width: 356px
+              margin-bottom: 24px
+              display: none
+              label
+                width: 100%
+                font-family: PT Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 150%
+                color: #28323C
+                &:nth-child(1)
+                  position: relative
+                  svg
+                    position: absolute
+                    left: 13px
+                    top: 41px
+                  .cardnumber
+                    padding-left: 32px
+                  &::after
+                    content: url("/icons/Vectasdasacsor.png")
+                    position: absolute
+                    top: 33px
+                    right: -23px
+                input
+                  margin-top: 4px
+                  width: 100%
+                  height: 40px
+                  border: 1px solid #D7E1EB
+                  box-sizing: border-box
+                  border-radius: 6px
+                  padding: 0 12px
+                  font-family: PT Sans
+                  font-style: normal
+                  font-weight: normal
+                  font-size: 16px
+                  line-height: 150%
+                  &::placeholder
+                    color: #A5B4C3
+              .paymentflex
+                display: flex
+                justify-content: space-between
+                align-items: center
+                margin-top: 16px
+                position: relative
+                &::after
+                  content: url("/icons/Vectasdasacsor.png")
+                  position: absolute
+                  top: 39px
+                  right: -23px
+                label
+                  width: 48%
+                  &:nth-child(1)
+                    &::after
+                      display: none
+            .oform-cont-left-sposob-box-balance
+              display: none
+              p:nth-child(1)
+                margin-bottom: 16px
+              p:nth-child(2)
+                display: block
+                margin-bottom: 24px
+                a
+                  margin-left: 5px
+                  color: #5F73DC
+            .oform-cont-left-sposob-box-chek
+              display: flex
+              justify-content: flex-start
+              align-items: center
+              margin: 16px 0 16px
+              label
+                display: flex
+                justify-content: flex-start
+                align-items: center
+                position: relative
+                &:nth-child(1)
+                  margin-right: 40px
+                input
+                  position: absolute
+                  left: 0
+                  top: 0
+                  width: 100%
+                  height: 100%
+                  z-index: 2
+                  opacity: 0
+                  cursor: pointer
+                span
+                  border: 1px solid #D7E1EB
+                  width: 16px
+                  height: 16px
+                  border-radius: 50%
+                  display: flex
+                  justify-content: center
+                  align-items: center
+                  position: relative
+                  padding: 2px 0
+                  &::before
+                    content: ""
+                    background: #5F73DC
+                    width: 12px
+                    height: 12px
+                    position: relative
+                    border-radius: 50%
+                    opacity: 0
+                    transition: all 0.5s
+                input:checked ~ span
+                  &::before
+                    opacity: 1
+                p
+                  margin: 0 9px 0 16px
+                  font-family: Proxima Nova
+                  font-style: normal
+                  font-weight: 600
+                  font-size: 18px
+                  margin-bottom: 0
+                  display: flex
+                  justify-content: center
+                  align-items: center
+                  line-height: 100%
+                  color: #28323C
+            .oform-cont-left-sposob-box-dow
+              width: 100%
+              display: flex
+              justify-content: space-between
+              align-items: center
+              margin-bottom: 24px
+              .oform-cont-left-sposob-box-dow-top
+                max-width: 356px
+                width: 100%
+                &:nth-child(1)
+                  margin-right: 10px
+              .oform-cont-left-sposob-box-dow-item
+                width: 100%
+                border: 1px solid #D7E1EB
+                box-sizing: border-box
+                border-radius: 6px
+                height: 40px
+                display: flex
+                margin-top: 4px
+                justify-content: space-between
+                align-items: center
+                padding: 0 12px
+
+                p
+                  font-family: PT Sans
+                  font-style: normal
+                  font-weight: normal
+                  font-size: 16px
+                  line-height: 150%
+                  color: #28323C
+                  display: flex
+                  justify-content: flex-end
+                  align-items: center
+                  svg
+                    margin-right: 8px
+                span
+                  display: flex
+                  justify-content: flex-end
+                  align-items: center
+                  color: #A5B4C3
+                  svg
+                    margin-left: 12px
+            input[type="submit"]
+              display: block
+              margin: 0 auto
+              max-width: 236px
+              width: 100%
+              height: 34px
+              background: #F5A5EB
+              box-shadow: 0px 10px 10px -5px rgba(180, 80, 165, 0.6)
+              border-radius: 6px
+              font-family: Proxima Nova
+              font-style: normal
+              font-weight: 600
+              font-size: 18px
+              line-height: 100%
+              border: unset
+              color: #FFFFFF
+              cursor: pointer
+              transition: all 0.5s
+              &:hover
+                background: #F556E0
+      .oform-cont-right
+        max-width: 376px
+        width: 100%
+        margin-top: 34px
+        .oform-cont-right-top
+          width: 100%
+          padding: 20px 20px 40px
+          background: #FFFFFF
+          border-radius: 10px
+          margin-bottom: 24px
+          h3
+            font-family: Proxima Nova
+            font-style: normal
+            font-weight: 600
+            font-size: 24px
+            line-height: 100%
+            color: #28323C
+            margin-bottom: 24px
+          .oform-cont-right-top-prices
+            width: 100%
+            margin-bottom: 16px
+            border-bottom: 1px solid #D7E1EB
+            .oform-cont-right-top-prices-item
+              width: 100%
+              display: flex
+              justify-content: space-between
+              align-items: center
+              margin-bottom: 16px
+              p
+                font-family: PT Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 150%
+                color: #28323C
+              span
+                font-family: Proxima Nova
+                font-style: normal
+                font-weight: 600
+                font-size: 18px
+                line-height: 100%
+                text-transform: uppercase
+                color: #28323C
+          .oform-cont-right-top-itog
+            width: 100%
+            margin-bottom: 16px
+            .oform-cont-right-top-itog-item
+              width: 100%
+              display: flex
+              justify-content: space-between
+              align-items: center
+              margin-bottom: 16px
+              p
+                font-family: PT Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 150%
+                color: #28323C
+              span
+                font-family: Proxima Nova
+                font-style: normal
+                font-weight: 600
+                font-size: 18px
+                line-height: 100%
+                text-transform: uppercase
+                color: #28323C
+          a
+            margin: 8px auto 0
+            display: flex
+            justify-content: center
+            align-items: center
+            max-width: 336px
+            width: 100%
+            height: 38px
+            background: #F5A5EB
+            box-shadow: 0px 10px 10px -5px rgba(180, 80, 165, 0.6)
+            border-radius: 6px
+            font-family: Proxima Nova
+            font-style: normal
+            font-weight: 600
+            font-size: 18px
+            line-height: 100%
+            color: #FFFFFF
+            transition: all 0.5s
+            &:hover
+              background: #F556E0
+        .oform-cont-right-bottom
+          width: 100%
+          h4
+            font-family: Proxima Nova
+            font-style: normal
+            font-weight: 600
+            font-size: 18px
+            line-height: 100%
+            margin-bottom: 16px
+            color: #28323C
+          .oform-cont-right-bottom-box
+            width: 100%
+            padding: 20px
+            background: #FFFFFF
+            border-radius: 10px
+            .oform-cont-right-bottom-box-item
+              width: 100%
+              display: flex
+              justify-content: space-between
+              align-items: center
+              padding-bottom: 8px
+              border-bottom: 1px solid #F3F6FB
+              margin-bottom: 8px
+              &:last-child
+                padding: 0
+                border: unset
+                margin: 0
+              img
+                max-width: 40px
+                width: 100%
+              h5
+                margin: 0 5px
+                font-family: PT Sans
+                font-style: normal
+                font-weight: normal
+                font-size: 16px
+                line-height: 150%
+                color: #28323C
+                span
+                  display: block
+                  margin-top: 4px
+                  font-family: PT Sans
+                  font-style: normal
+                  font-weight: normal
+                  font-size: 12px
+                  line-height: 100%
+                  color: #A5B4C3
+              p
+                font-family: Proxima Nova
+                font-style: normal
+                font-weight: 600
+                font-size: 18px
+                line-height: 100%
+                text-transform: uppercase
+                color: #28323C
+@media(max-width: 860px)
+  .oform
+    padding: 40px 16px
+    .oform-cont
+      max-width: 684px
+      width: 100%
+      margin: 0 auto
+      h1
+        margin-bottom: 24px
+        font-family: Proxima Nova
+        font-style: normal
+        font-weight: 600
+        font-size: 24px
+        line-height: 100%
+        text-transform: uppercase
+        color: #28323C
+      .oform-cont-flex
+        width: 100%
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-between
+        align-items: flex-start
+        .oform-cont-left
+          max-width: unset
+          width: 100%
+          margin-right: 0
+          margin-bottom: 40px
+        .oform-cont-right
+          max-width: unset
+          width: 100%
+          margin-top: 34px
+          flex-direction: column-reverse
+          display: flex
+          justify-content: flex-start
+          align-items: center
+          .oform-cont-right-top
+            margin-bottom: 0
+            margin-top: 16px
+@media(max-width: 780px)
+  .ant-tabs-content-holder
+    display: block!important
+@media(max-width: 560px)
+  .oform .oform-cont .oform-cont-flex .oform-cont-left
+    margin-bottom: 24px
+  .oform .oform-cont .oform-cont-flex .oform-cont-right
+    margin-top: 0
+    .oform-cont-right-bottom
+      .oform-cont-right-bottom-box
+        padding: 16px 10px
+  .oform .oform-cont .oform-cont-flex .oform-cont-right .oform-cont-right-top
+    padding: 19px 10px 20px
+  .oform
+    padding: 26px 12px
+  .oform .oform-cont .oform-cont-flex .oform-cont-left .oform-cont-left-adres .oform-cont-left-adres-box
+    padding: 19px 13px
+  .oform .oform-cont .oform-cont-flex .oform-cont-left .oform-cont-left-strax .oform-cont-left-strax-box
+    padding: 16px 10px
+  .oform .oform-cont .oform-cont-flex .oform-cont-left .oform-cont-left-sposob .oform-cont-left-sposob-box
+    padding: 10px 10px 20px
+  .oform .oform-cont .oform-cont-flex .oform-cont-left .oform-cont-left-sposob .oform-cont-left-sposob-box .oform-cont-left-sposob-box-paymentcard
+    padding-right: 24px
+  .ant-tabs-content-holder
+    display: block!important
+  .oform .oform-cont .oform-cont-flex .oform-cont-left .oform-cont-left-sposob .oform-cont-left-sposob-box .oform-cont-left-sposob-box-dow
+    flex-wrap: wrap
+    max-width: unset
+  .oform .oform-cont .oform-cont-flex .oform-cont-left .oform-cont-left-sposob .oform-cont-left-sposob-box .oform-cont-left-sposob-box-chek
+    flex-direction: column
+    align-items: flex-start
+    label
+      margin: 0
+      &:nth-child(1)
+        margin-bottom: 19px
+  .oform .oform-cont .oform-cont-flex .oform-cont-left .oform-cont-left-sposob .oform-cont-left-sposob-box .oform-cont-left-sposob-box-dow .oform-cont-left-sposob-box-dow-top
+    max-width: unset
+  .oform .oform-cont .oform-cont-flex .oform-cont-left .oform-cont-left-sposob .oform-cont-left-sposob-box .oform-cont-left-sposob-box-dow .oform-cont-left-sposob-box-dow-top:nth-child(1)
+    margin-right: 0
+    margin-bottom: 14px
+  .oform .oform-cont .oform-cont-flex .oform-cont-left .oform-cont-left-adres .oform-cont-left-adres-box
+    padding: 19px 13px
+    .oform-cont-left-adres-box-text
+      padding-left: 24px
+      label
+        width: 100%
+        &:nth-child(5),&:nth-child(6),&:nth-child(7),&:nth-child(8)
+          width: 48%
+          margin-bottom: 0

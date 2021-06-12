@@ -1,0 +1,113 @@
+.brendcrumbs {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 16px;
+}
+.brendcrumbs a {
+  cursor: pointer;
+}
+.brendcrumbs-cont {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.brendcrumbs-cont-left {
+  max-width: 180px;
+  width: 100%;
+}
+.brendcrumbs-cont-left a {
+  font-family: PT-Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F3F6FB;
+  max-width: 150px;
+  width: 100%;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.brendcrumbs-cont-left a:hover{
+  color: #F3F6FB;
+      filter: brightness(0.5);
+}
+.brendcrumbs-cont-left a img{
+  margin-right: 8px
+}
+.brendcrumbs-cont-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: max-content;
+}
+.brendcrumbs-cont-right p {
+  font-family: PT-Sans;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #F3F6FB;
+}
+.brendcrumbs-cont-right a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 19px;
+  font-family: PT-Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: #F3F6FB;
+  transition: all 0.5s;
+}
+.brendcrumbs-cont-right a:hover{
+  color: #F3F6FB;
+      filter: brightness(0.5);
+}
+.brendcrumbs-cont-right a img {
+  margin-left: 10px;
+}
+@media (max-width: 875px) {
+  .brendcrumbs {
+    padding: 15px 16px;
+  }
+  .brendcrumbs-cont {
+    overflow: auto;
+    padding: 0 !important;
+  }
+  .brendcrumbs-cont::-webkit-scrollbar {
+    width: 0;
+  }
+  .brendcrumbs-cont-right {
+    width: 100%;
+    min-width: max-content;
+  }
+  .brendcrumbs-cont-right p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 555px) {
+  .brendcrumbs {
+    padding: 15px 16px;
+  }
+  .brendcrumbs-cont {
+    overflow: auto;
+    padding: 0 !important;
+  }
+  .brendcrumbs-cont::-webkit-scrollbar {
+    width: 0;
+  }
+  .brendcrumbs-cont-right {
+    display: none
+  }
+  .brendcrumbs-cont-right p {
+    font-size: 12px;
+  }
+}

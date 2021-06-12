@@ -1,0 +1,446 @@
+.charityhome {
+  padding: 40px 16px; }
+  .charityhome .charityhome-cont {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto; }
+    .charityhome .charityhome-cont h1 {
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 100%;
+      margin-bottom: 24px;
+      text-transform: uppercase;
+      color: #28323C; }
+    .charityhome .charityhome-cont .charityhome-cont-flex {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch; }
+      .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left {
+        max-width: 276px;
+        width: 100%;
+        background: #E7F8FF;
+        border-radius: 10px;
+        margin-right: 10px;
+        padding: 3px 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item {
+          width: 100%;
+          padding: 20px 0;
+          border-bottom: 1px solid #D7E1EB; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item:last-child {
+            border-bottom: unset; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item p {
+            margin-bottom: 8px;
+            text-align: center;
+            font-family: Proxima Nova;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 100%;
+            color: #5F73DC; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item span {
+            font-family: PT Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150%;
+            text-align: center;
+            width: 100%;
+            display: block;
+            color: #73879B; }
+      .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide {
+        max-width: 876px;
+        width: 100%;
+        background: #E0ECFF;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .btn {
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 17px;
+          z-index: 5;
+          width: 100%; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .btn button {
+            background-image: url("/icons/adsasdvasv.svg");
+            background-color: unset;
+            background-size: cover;
+            width: 9px;
+            height: 17px;
+            cursor: pointer;
+            border: unset;
+            transition: all 0.5s; }
+            .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .btn button:hover{
+                  filter: brightness(0.3);
+            }
+            .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .btn button:last-child {
+              transform: rotate(180deg); }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container {
+          width: 100%;
+          height: 100%; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide {
+            width: 100%;
+            padding: 80px 72px 104px;
+            position: relative;
+            height: 100%; }
+            .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              position: absolute;
+              left: 0;
+              top: 0; }
+            .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide h3 {
+              font-family: Proxima Nova;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 120%;
+              position: relative;
+              z-index: 2;
+              max-width: 280px;
+              color: #0E141A;
+              margin-bottom: 16px; }
+            .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide a {
+              background: #5F73DC;
+              position: relative;
+              z-index: 2;
+              width: 178px;
+              height: 38px;
+              border: 2px solid #5F73DC;
+              box-sizing: border-box;
+              border-radius: 6px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-family: Proxima Nova;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 100%;
+              transition: all 0.5s;
+              color: #FFFFFF; }
+              .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide a:hover{
+                background: #323D74;
+                border: 2px solid #323D74;
+              }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-pagination {
+            position: absolute;
+            left: 0;
+            bottom: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            z-index: 5; }
+            .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-pagination .swiper-pagination-bullet {
+              width: 12px;
+              height: 12px;
+              background: #D7E1EB;
+              border-radius: 2px;
+              margin: 0 4px;
+              display: block;
+              cursor: pointer; }
+            .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-pagination .swiper-pagination-bullet-active {
+              background: #73C8EB;
+              border-radius: 2px; }
+
+.charitycompany .charitycompany-cont2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .charitycompany .charitycompany-cont2 .charitycompany-cont-left {
+    max-width: 276px;
+    width: 100%;
+    margin-right: 10px; }
+    .charitycompany .charitycompany-cont2 .charitycompany-cont-left h2 {
+      font-family: Proxima Nova;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 100%;
+      margin-bottom: 24px;
+      color: #28323C; }
+    .charitycompany .charitycompany-cont2 .charitycompany-cont-left .charitycompany-cont-leff-box {
+      width: 100%;
+      background: #FFFFFF;
+      border-radius: 10px;
+      padding: 18px 0; }
+      .charitycompany .charitycompany-cont2 .charitycompany-cont-left .charitycompany-cont-leff-box a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        padding: 7px 26px;
+        transition: all 0.5s;
+        font-family: PT Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #28323C; }
+        .charitycompany .charitycompany-cont2 .charitycompany-cont-left .charitycompany-cont-leff-box a svg {
+          width: 32px;
+          margin-right: 16px; }
+          .charitycompany .charitycompany-cont2 .charitycompany-cont-left .charitycompany-cont-leff-box a svg path {
+            transition: all 0.5s; }
+        .charitycompany .charitycompany-cont2 .charitycompany-cont-left .charitycompany-cont-leff-box a:hover {
+          color: #5F73DC;
+          background: rgba(215, 243, 255, 0.8); }
+          .charitycompany .charitycompany-cont2 .charitycompany-cont-left .charitycompany-cont-leff-box a:hover svg path {
+            fill: #5F73DC !important;
+            stroke: #5F73DC !important; }
+  .charitycompany .charitycompany-cont2 .charitycompany-cont-right h2 {
+    margin-bottom: 24px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #28323C; }
+    .charitycompany .charitycompany-cont2 .charitycompany-cont-right h2 span {
+      margin-left: 5px;
+      color: #FFF; }
+  .charitycompany .charitycompany-cont2 .charitycompany-cont-flex {
+    grid-template-columns: 1fr 1fr 1fr; }
+
+@media (max-width: 1084px) {
+  .charityhome {
+    padding: 18px 16px 16px; }
+    .charityhome .charityhome-cont{
+      max-width: 684
+    }
+    .charityhome .charityhome-cont h1 {
+      font-size: 24px;
+      margin-bottom: 24px; }
+    .charityhome .charityhome-cont .charityhome-cont-flex {
+      flex-direction: column;
+      align-items: flex-start; }
+      .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left {
+        max-width: unset;
+        margin-right: 0;
+        padding: 4px 24px;
+        margin-bottom: 16px;
+        flex-direction: row; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item {
+          padding: 20px 0;
+          border-bottom: unset;
+          border-right: 1px solid #D7E1EB; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item:last-child {
+            border: unset; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item p {
+            margin-bottom: 8px;
+            font-size: 24px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item span {
+            font-size: 16px; }
+      .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide {
+        max-width: unset; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .btn {
+          padding: 0 17px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .btn button {
+            width: 9px;
+            height: 17px; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide {
+          padding: 80px 72px 104px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide h3 {
+            font-size: 24px;
+            max-width: 280px;
+            margin-bottom: 16px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide a {
+            width: 178px;
+            height: 38px;
+            font-size: 18px; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-pagination {
+          bottom: 16px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-pagination .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            margin: 0 4px; }
+  .charitycompany .charitycompany-cont2 {
+    flex-wrap: wrap; }
+    .charitycompany .charitycompany-cont2 .charitycompany-cont-left {
+      max-width: unset;
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 24px; }
+      .charitycompany .charitycompany-cont2 .charitycompany-cont-left h2 {
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        margin-bottom: 24px;
+        color: #28323C; }
+      .charitycompany .charitycompany-cont2 .charitycompany-cont-left .charitycompany-cont-leff-box {
+        background: unset;
+        padding: 0;
+        overflow: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center; }
+        .charitycompany .charitycompany-cont2 .charitycompany-cont-left .charitycompany-cont-leff-box a {
+          min-width: max-content;
+          padding: 9px 12px;
+          font-size: 16px;
+          background: #FFFFFF;
+          box-shadow: 0px 0px 15px rgba(115, 200, 235, 0.15);
+          border-radius: 20px;
+          margin-right: 8px;
+          width: auto;
+          font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+
+  text-transform: uppercase; }
+          .charitycompany .charitycompany-cont2 .charitycompany-cont-left .charitycompany-cont-leff-box a svg {
+            width: 20px;
+            height: 20px;
+            margin-right: 8px; }
+    .charitycompany .charitycompany-cont2 .charitycompany-cont-right {
+      max-width: unset;
+      width: 100%; }
+    .charitycompany .charitycompany-cont2 .charitycompany-cont-flex {
+      max-width: unset;
+      width: 100%;
+      grid-template-columns: 1fr 1fr 1fr; } }
+
+@media (max-width: 900px) {
+  footer .social-links{
+    width: 70%!important
+  }
+  .charity .charity-cont .charity-cont-right .pricetop{
+    margin: 16px 0
+  }
+  .charity .charity-cont .charity-cont-right .charity-cont-right-wallet button{
+    margin: 0 auto;
+margin-top: 24px;
+  }
+  .charitycompany .charitycompany-cont{
+    max-width: 684px
+  }
+  .charitycompany .charitycompany-cont2{
+    max-width: 684px
+  }
+  .charityhome {
+    padding: 18px 16px 16px; }
+    .charityhome .charityhome-cont{
+      max-width: 684px
+    }
+    .charityhome .charityhome-cont h1 {
+      font-size: 24px;
+      margin-bottom: 24px; }
+    .charityhome .charityhome-cont .charityhome-cont-flex {
+      flex-direction: column;
+      align-items: flex-start; }
+      .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left {
+        max-width: unset;
+        margin-right: 0;
+        padding: 4px 0px;
+        justify-content: center;
+        margin-bottom: 16px;
+        flex-direction: row; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item {
+          padding: 20px 12px;
+          border-bottom: unset;
+          max-width: 228px;
+          border-right: 1px solid #D7E1EB; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item:last-child {
+            border: unset; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item p {
+            margin-bottom: 8px;
+            font-size: 24px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item span {
+            font-size: 16px; }
+      .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide {
+        max-width: unset; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .btn {
+          padding: 0 17px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .btn button {
+            width: 9px;
+            height: 17px; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide {
+          padding: 80px 72px 104px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide h3 {
+            font-size: 24px;
+            max-width: 280px;
+            margin-bottom: 16px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide a {
+            width: 178px;
+            height: 38px;
+            font-size: 18px; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-pagination {
+          bottom: 16px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-pagination .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            margin: 0 4px; }
+  .charitycompany .charitycompany-cont,{
+    max-width: 684px
+  }
+  .charitycompany .charitycompany-cont2 .charitycompany-cont-flex {
+    grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 650px) {
+  .charityhome {
+    padding: 18px 16px 16px; }
+    .charityhome .charityhome-cont h1 {
+      font-size: 24px;
+      margin-bottom: 24px; }
+    .charityhome .charityhome-cont .charityhome-cont-flex {
+      flex-direction: column;
+      align-items: flex-start; }
+      .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left {
+        max-width: unset;
+        margin-right: 0;
+        padding: 4px 24px;
+        margin-bottom: 16px;
+        flex-direction: column; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item {
+          padding: 20px 0;
+          border-bottom: 1px solid #D7E1EB;
+          border-right: unset; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item:last-child {
+            border: unset; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item p {
+            margin-bottom: 8px;
+            font-size: 24px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-left .charityhome-cont-left-item span {
+            font-size: 16px; }
+      .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide {
+        max-width: unset; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .btn {
+          padding: 0 17px;
+          display: none; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .btn button {
+            width: 9px;
+            height: 17px; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide {
+          padding: 30px 16px 53px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide h3 {
+            font-size: 24px;
+            max-width: 280px;
+            margin-bottom: 16px;
+            margin: 0 auto 12px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-slide a {
+            width: 178px;
+            height: 38px;
+            font-size: 18px;
+            margin: 0 auto; }
+        .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-pagination {
+          bottom: 16px; }
+          .charityhome .charityhome-cont .charityhome-cont-flex .charityhome-cont-slide .swiper-container .swiper-pagination .swiper-pagination-bullet {
+            width: 12px;
+            height: 12px;
+            margin: 0 4px; } }

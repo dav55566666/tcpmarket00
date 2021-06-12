@@ -1,0 +1,145 @@
+@mixin flexSite($flex, $space) {
+  display: $flex;
+  justify-content: $space;
+}
+
+@font-face {
+  font-family: Pt-Sans;
+  src: url(../public//fonts/PTSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Proxima-Nova;
+  src: url(../public/fonts/ProximaNovaT-Thin.ttf);
+}
+
+$textCol: #f3f6fb;
+header {
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(145, 145, 145, 0.15);
+  .first-header {
+    // max-width: 1176px;
+    background: #323c46;
+    padding: 11px 0;
+    font-family: Pt-Sans;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .header-section {
+    max-width: 1176px;
+    margin: 0 auto;
+    @include flexSite(flex, space-between);
+    align-items: center;
+    .small-price {
+      font-size: 10px;
+
+      &::after {
+        content: '+ 0.03%';
+        color: #3cc8b4;
+      }
+      &::before {
+        content: url('../public/icons/arrow.svg');
+        margin-right: 5px;
+      }
+    }
+  }
+  .header-navs-menu {
+    width: 70%;
+    @include flexSite(flex, space-between);
+    align-items: center;
+  }
+  .bit-credit {
+    @include flexSite(flex, space-evenly);
+    align-items: center;
+    grid-gap: 20px;
+    width: 65%;
+  }
+
+  .bit-blocks {
+    @include flexSite(flex, space-between);
+    align-items: center;
+
+    .bit-text {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      color: $textCol;
+    }
+  }
+
+  .diff-store-nav-list {
+    margin-right: 20px;
+    .header-nav-list {
+      @include flexSite(flex, space-around);
+      grid-gap: 15px;
+    }
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: $textCol;
+      font-size: 12px;
+    }
+  }
+}
+
+//---HEADER--DOWN
+.header-down {
+  font-family: Proxima-Nova;
+  max-width: 1176px;
+  margin: 0 auto;
+  @include flexSite(flex, space-between);
+  align-items: center;
+  padding: 10px 0;
+  .search-panel {
+    position: relative;
+    width: 40%;
+    .searchInput {
+      width: 100%;
+      padding: 5px 30px;
+      border: 1px solid #d7e1eb;
+
+      border-radius: 6px;
+    }
+
+    .left-img {
+      position: absolute;
+      left: 10px;
+      top: 7px;
+    }
+    .right-img {
+      position: absolute;
+      right: 10px;
+      top: 7px;
+    }
+  }
+  .catalog {
+    @include flexSite(flex, space-between);
+    margin-left: 20px;
+    h2 {
+      margin-left: 15px;
+      font-style: normal;
+      font-weight: 600;
+      color: black;
+    }
+  }
+  .img-panel {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    grid-gap: 30px;
+  }
+}
+.left {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+.burger-menu {
+  width: 30px;
+  span{
+    display: block;
+    width: 100%;
+    margin-bottom:
+  }
+}

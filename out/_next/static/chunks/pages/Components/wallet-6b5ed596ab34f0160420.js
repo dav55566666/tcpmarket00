@@ -1,0 +1,1 @@
+_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[60],{tCC9:function(n,_,w){(window.__NEXT_P=window.__NEXT_P||[]).push(["/Components/wallet",function(){return w("L3tk")}])}},[["tCC9",0,1,2,3,4,5,9,15]]]);
