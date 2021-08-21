@@ -1,0 +1,142 @@
+.wallet_stories
+  width: 100%
+  h2
+    margin-bottom: 8px
+  .wallet_stories_slider
+    width: 100%
+    padding: 20px 20px 12px
+    background: #FFFFFF
+    border-radius: 10px
+    position: relative
+    max-width: 552px
+    .prevslide,.nextslide
+      position: absolute
+      left: 20px
+      top: 43%
+      transform: translateX(-50%)
+      width: 24px
+      z-index: 5555
+      height: 24px
+      background-image: url("/icons/fi-sr-angle-small-left.svg")
+      background-size: cover
+    .nextslide
+      left: unset
+      right: 10px
+      transform: rotate(180deg)
+    .mySwiper
+      width: 100%
+      padding: 0
+      margin: 0
+    .swiper-slide
+      .wallet_stories_central
+        margin: 0 auto 32px
+        max-width: 250px
+        width: 100%
+      .wallet_stories_top
+        width: 100%
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 16px
+        p:nth-child(1)
+          display: flex
+          justify-content: flex-start
+          align-items: center
+          font-family: Proxima Nova
+          font-style: normal
+          font-weight: 600
+          font-size: 18px
+          line-height: 22px
+          color: #28323C
+          span
+            margin-left: 3px
+            color: #A5B4C3
+        p:nth-child(2)
+          font-family: Proxima Nova
+          font-style: normal
+          font-weight: 600
+          font-size: 24px
+          line-height: 29px
+          color: #28323C
+      .wallet_stories_bottom
+        width: 100%
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        flex-wrap: wrap
+        p
+          padding: 6px 10px
+          border-radius: 20px
+          margin-right: 8px
+          margin-bottom: 8px
+          font-family: Proxima Nova
+          font-style: normal
+          font-weight: 600
+          font-size: 16px
+          line-height: 19px
+          color: #FFFFFF
+        .darkblue
+          background: #9182F0
+        .violet
+          background: #E17DD2
+        .blue
+          background: #6AD3CD
+        .orange
+          background: #E6A933
+        .green
+          background: #64BB7C
+.debts
+  margin-top: 24px
+  width: 100%
+  max-width: 552px
+  h2
+    margin-bottom: 8px
+  .debts_box
+    width: 100%
+    padding: 16px
+    background: #FFFFFF
+    border-radius: 10px
+    .debts_box_item
+      width: 100%
+      display: flex
+      justify-content: space-between
+      align-items: flex-start
+      padding-bottom: 8px
+      margin-bottom: 8px
+      border-bottom: 1px solid #F3F6FB
+      &:last-child
+        margin-bottom: 0
+        padding-bottom: 0
+        border-bottom: unset
+      .debts_box_item_left
+        max-width: max-content
+        width: 100%
+        p
+          font-family: Proxima Nova
+          font-style: normal
+          font-weight: 600
+          font-size: 16px
+          line-height: 19px
+          color: #28323C
+          margin-bottom: 10px
+        span
+          font-family: PT Sans
+          font-style: normal
+          font-weight: normal
+          font-size: 12px
+          line-height: 16px
+          color: #73879B
+      .debts_box_item_right
+        max-width: max-content
+        width: 100%
+        text-align: right
+        p
+          font-family: Proxima Nova
+          font-style: normal
+          font-weight: 600
+          font-size: 18px
+          line-height: 22px
+          color: #28323C
+          margin-bottom: 4px
+        a
+          height: 27px

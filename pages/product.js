@@ -1,12 +1,12 @@
 import {Fragment} from 'react';
-import Footer from './Components/Footer/footer';
-import Header from './Components/Header/header';
-import Brendcrumbs from './Components/brendcruymbs';
-import Product from './Components/product';
-import TopProduct from './Components/topproducts';
-import TopProductItem from './Components/topproducts/item';
-import ProductInfo from './Components/productinfo';
-import BrendcrumbsItem from './Components/brendcruymbs/item';
+import Footer from '../Components/Footer/footer';
+import Header from '../Components/Header/header';
+import Brendcrumbs from '../Components/brendcruymbs';
+import Product from '../Components/product';
+import TopProduct from '../Components/topproducts';
+import TopProductItem from '../Components/topproducts/item';
+import ProductInfo from '../Components/productinfo';
+import BrendcrumbsItem from '../Components/brendcruymbs/item';
 import Line from '../public/icons/Line.svg';
 export default function Home() {
   return (

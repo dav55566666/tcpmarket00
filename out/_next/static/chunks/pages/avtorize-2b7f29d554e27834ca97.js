@@ -1,1 +1,0 @@
-_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[75],{"4xIz":function(n,t,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/avtorize",function(){return u("fA/O")}])},"fA/O":function(n,t,u){"use strict";u.r(t),u.d(t,"default",(function(){return i}));var o=u("nKUr"),_=(u("q1tI"),u("UPwn"));function i(){return Object(o.jsx)(_.default,{})}}},[["4xIz",0,1,16]]]);

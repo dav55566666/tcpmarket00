@@ -1,0 +1,441 @@
+.productlist
+  width: 100%
+  background: #F3F6FB
+  .bottom-pagination
+    display: flex
+    justify-content: flex-end
+    align-items: center
+    width: 100%
+  .productlist-cont
+    max-width: 1920px
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: stretch
+    margin: 0 auto
+    height: 100%
+    .productlist-cont-right
+      max-width: unset
+      width: 100%
+      padding: 24px 30px 40px
+      .productlist-cont-right-menu
+        width: 100%
+        .productlist-cont-right-menu-top
+          width: 100%
+          display: flex
+          justify-content: space-between
+          align-items: center
+          max-width: 997px
+          margin-bottom: 24px
+          .menu-top-flex
+            margin-left: 12px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            max-width: 421px
+            width: 100%
+          form
+            max-width: 552px
+            width: 100%
+            input
+              width: 100%
+              height: 40px
+              padding: 0 12px
+              background: #FFFFFF
+              border: 1px solid #D7E1EB
+              box-sizing: border-box
+              border-radius: 6px
+              font-family: PT Sans
+              font-style: normal
+              font-weight: normal
+              font-size: 16px
+              line-height: 150%
+              &::placeholder
+                color: #A5B4C3
+          button
+            max-width: 187px
+            width: 100%
+            margin-right: 10px
+            display: flex
+            justify-content: center
+            align-items: center
+            border: unset
+            transition: all 0.5s
+            cursor: pointer
+            background: #AAA0FA
+            border-radius: 6px
+            font-family: Proxima Nova
+            font-style: normal
+            font-weight: 600
+            font-size: 18px
+            line-height: 100%
+            color: #FFFFFF
+            height: 40px
+            img
+              margin-right: 4px
+            &:hover
+              background: #8B7DFA
+          a
+            display: flex
+            justify-content: center
+            align-items: center
+            font-family: PT Sans
+            font-style: normal
+            font-weight: normal
+            min-width: max-content
+            font-size: 16px
+            line-height: 150%
+            color: #A5B4C3
+            transition: all 0.5s
+            img
+              margin-left: 8px
+            &:hover
+              filter: brightness(0.2)
+        .productlist-cont-right-menu-bottom
+          width: 100%
+          display: flex
+          justify-content: space-between
+          align-items: center
+          .productlist-cont-right-menu-bottom-sort
+            max-width: 667px
+            width: 100%
+            margin-right: 10px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            .select
+              max-width: 264px
+              width: 100%
+              .ant-select
+                width: 100%!important
+                .ant-select-selector
+                  width: 100%
+                  height: 40px
+                  background: #FFFFFF
+                  border: 1px solid #D7E1EB
+                  box-sizing: border-box
+                  border-radius: 6px
+                .ant-select-selection-item
+                  width: 100%
+                  display: flex
+                  justify-content: flex-start
+                  align-items: center
+                  font-family: PT Sans
+                  font-style: normal
+                  font-weight: normal
+                  font-size: 16px
+                  line-height: 150%
+                  color: #28323C
+            .sort-felx
+              max-width: 379px
+              width: 100%
+              display: flex
+              justify-content: space-between
+              align-items: center
+              overflow: auto
+              margin-left: 10px
+              a
+                max-width: max-content
+                width: 100%
+                display: flex
+                justify-content: center
+                padding: 12px
+                align-items: center
+                background: #FFFFFF
+                box-shadow: 0px 0px 15px rgba(115, 200, 235, 0.15)
+                border-radius: 20px
+                font-family: Proxima Nova
+                font-style: normal
+                font-weight: 600
+                margin-right: 8px
+                font-size: 16px
+                line-height: 100%
+                text-transform: uppercase
+                color: #28323C
+                img
+                  margin-right: 8px
+          .productlist-cont-right-menu-bottom-pagination
+            width: 100%
+            max-width: max-content
+            display: flex
+            justify-content: flex-end
+            align-items: center
+            .productlist-cont-right-menu-bottom-pagination-btn
+              max-width: 64px
+              margin-right: 40px
+              width: 100%
+              display: flex
+              justify-content: space-between
+              align-items: center
+              button
+                padding: 0
+                background: unset
+                border: unset
+                cursor: pointer
+                min-width: 24px
+                transition: all 0.5s
+                &:first-child
+                  margin-right: 16px
+                &:hover
+                  filter: brightness(0.2)
+              .activ_type
+                filter: brightness(0.2)
+  .ant-pagination
+    display: flex
+    .ant-pagination-prev,.ant-pagination-jump-prev,.ant-pagination-options
+      display: none
+    .ant-pagination-item,.ant-pagination-jump-next
+      width: 26px
+      max-width: 26px
+      min-width: 26px
+      height: 26px
+      background: #FFFFFF
+      border-radius: 2px
+      border: unset
+      a
+        display: flex
+        width: 100%
+        height: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        padding: 0
+        font-family: PT Sans
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 150%
+        color: #28323C
+    .ant-pagination-item-active
+      a
+        color: #5F73DC
+    .ant-pagination-jump-next
+      .ant-pagination-item-container
+        width: 100%
+      .ant-pagination-item-ellipsis
+        font-family: PT Sans!important
+        font-style: normal
+        font-weight: normal
+        font-size: 16px!important
+        line-height: 150%
+        color: #28323C!important
+        letter-spacing: -1px
+        left: -3px
+        top: 5px
+    .ant-pagination-next
+      width: 36px
+      max-width: 36px
+      min-width: 36px
+      height: 26px
+      background: unset
+      border-radius: 2px
+      border: unset
+      button
+        border: unset
+        background-color: unset
+        background-image: url("/icons/arrows.svg")
+        background-size: contain
+        background-repeat: no-repeat
+        background-position: center
+        svg
+          display: none
+@media(max-width: 1250px)
+  .productlist
+    width: 100%
+    background: #F3F6FB
+    .productlist-cont
+      max-width: 1440px
+      width: 100%
+      display: flex
+      justify-content: space-between
+      align-items: stretch
+      margin: 0 auto
+      height: 100%
+      .productlist-cont-right
+        padding-left: 76px
+        max-width: unset
+@media(max-width: 1080px)
+  .productlist
+    .productlist-cont
+      .productlist-cont-right
+        max-width: 1188px
+        .productlist-cont-right-menu
+          .productlist-cont-right-menu-top
+            max-width: 997px
+            margin-bottom: 24px
+            align-items: flex-start
+            .menu-top-flex
+              margin-left: 12px
+              display: flex
+              justify-content: space-between
+              align-items: center
+              max-width: 421px
+              width: 100%
+              flex-direction: column
+              max-width: 230px
+            form
+              max-width: unset
+              input
+                height: 40px
+                padding: 0 12px
+                font-size: 16px
+            button
+              max-width: 230px
+              margin: 0
+              margin-bottom: 16px
+              font-size: 18px
+              height: 40px
+              img
+                margin-right: 4px
+            a
+              font-size: 16px
+              img
+                margin-left: 8px
+          .productlist-cont-right-menu-bottom
+            flex-wrap: wrap
+            .productlist-cont-right-menu-bottom-sort
+              max-width: unset
+              margin-right: 0
+              margin-bottom: 24px
+              .select
+                max-width: 264px
+                .ant-select
+                  .ant-select-selector
+                    height: 40px
+                  .ant-select-selection-item
+                    font-size: 16px
+              .sort-felx
+                max-width: 379px
+                margin-left: 10px
+                a
+                  padding: 12px
+                  margin-right: 8px
+                  font-size: 16px
+                  img
+                    margin-right: 8px
+            .productlist-cont-right-menu-bottom-pagination
+              max-width: unset
+              justify-content: space-between
+              .productlist-cont-right-menu-bottom-pagination-btn
+                max-width: 64px
+                margin-right: 40px
+                button
+                  min-width: 24px
+                  &:first-child
+                    margin-right: 16px
+              .ant-pagination
+                .ant-pagination-item,.ant-pagination-jump-next
+                  width: 26px
+                  max-width: 26px
+                  min-width: 26px
+                  height: 26px
+                  a
+                    font-size: 16px
+                .ant-pagination-jump-next
+                  .ant-pagination-item-ellipsis
+                    font-size: 16px!important
+                    letter-spacing: -1px
+                    left: -3px
+                    top: 5px
+                .ant-pagination-next
+                  width: 36px
+                  max-width: 36px
+                  min-width: 36px
+                  height: 26px
+@media(max-width: 640px)
+  .productlist
+    .productlist-cont
+      flex-direction: column
+      .productlist-cont-right
+        max-width: 1188px
+        position: relative
+        padding: 24px 12px
+        .productlist-cont-right-menu
+          .productlist-cont-right-menu-top
+            max-width: 997px
+            margin-bottom: 54px
+            align-items: flex-start
+
+            .menu-top-flex
+              max-width: 44px
+            form
+              max-width: unset
+              input
+                height: 36px
+                padding: 0 12px
+                font-size: 16px
+            button
+              max-width: 44px
+              margin: 0
+              margin-bottom: 16px
+              font-size: 18px
+              height: 36px
+              justify-content: flex-start
+              padding: 0 12px
+              overflow: hidden
+              white-space: nowrap
+              img
+                margin-right: 15px
+                min-width: 20px
+            a
+              font-size: 16px
+              position: absolute
+              left: 50%
+              transform: translateX(-50%)
+              top: 76px
+              img
+                margin-left: 8px
+          .productlist-cont-right-menu-bottom
+            flex-wrap: wrap
+            .productlist-cont-right-menu-bottom-sort
+              max-width: unset
+              margin-right: 0
+              margin-bottom: 0
+              flex-direction: column-reverse
+              .select
+                max-width: unset
+                margin-top: 16px
+                .ant-select
+                  .ant-select-selector
+                    height: 36px
+                  .ant-select-selection-item
+                    font-size: 16px
+              .sort-felx
+                max-width: 379px
+                margin-left: 10px
+                a
+                  padding: 12px
+                  margin-right: 8px
+                  font-size: 16px
+                  img
+                    margin-right: 8px
+            .productlist-cont-right-menu-bottom-pagination
+              max-width: unset
+              justify-content: space-between
+              display: none
+              .productlist-cont-right-menu-bottom-pagination-btn
+                max-width: 64px
+                margin-right: 40px
+                button
+                  min-width: 24px
+                  &:first-child
+                    margin-right: 16px
+              .ant-pagination
+                .ant-pagination-item,.ant-pagination-jump-next
+                  width: 26px
+                  max-width: 26px
+                  min-width: 26px
+                  height: 26px
+                  a
+                    font-size: 16px
+                .ant-pagination-jump-next
+                  .ant-pagination-item-ellipsis
+                    font-size: 16px!important
+                    letter-spacing: -1px
+                    left: -3px
+                    top: 5px
+                .ant-pagination-next
+                  width: 36px
+                  max-width: 36px
+                  min-width: 36px
+                  height: 26px

@@ -1,1 +1,0 @@
-_N_E=(window.webpackJsonp_N_E=window.webpackJsonp_N_E||[]).push([[35],{SeLf:function(n,o,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/Components/Main/Login/Aoutorization/aoutorize",function(){return _("UPwn")}])}},[["SeLf",0,1,16]]]);

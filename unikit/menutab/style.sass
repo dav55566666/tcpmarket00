@@ -1,0 +1,51 @@
+.menutab
+  padding: 16px 0px
+  width: 100%
+  max-width: 264px
+  background: #FFFFFF
+  border-radius: 10px
+  .menutab_item
+    width: 100%
+    a
+      width: 100%
+      display: flex
+      justify-content: flex-start
+      align-items: center
+      padding: 4px 16px
+      margin-bottom: 8px
+      img
+        margin-right: 8px
+      span
+        font-family: PT Sans
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 150%
+        color: #28323C
+@media(max-width: 950px)
+  .menutab
+    padding: 0
+    max-width: unset
+    background: unset
+    border-radius: 0
+    overflow: auto
+    
+    .menutab_item
+      width: max-content
+      a
+        width: max-content
+        padding: 10px 12px
+        margin-bottom: 0
+        margin-right: 8px
+        img
+          margin-right: 8px
+          width: 20px
+          height: 20px
+        span
+          font-family: Proxima Nova
+          font-style: normal
+          font-weight: 600
+          font-size: 16px
+          line-height: 19px
+          text-transform: uppercase
+          color: #28323C

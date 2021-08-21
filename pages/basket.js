@@ -1,8 +1,8 @@
 import {Fragment} from 'react';
-import Footer from './Components/Footer/footer';
-import Header from './Components/Header/header';
-import Basket from './Components/basket';
-import BasketItem from './Components/basket/item';
+import Footer from '../Components/Footer/footer';
+import Header from '../Components/Header/header';
+import Basket from '../Components/basket';
+import BasketItem from '../Components/basket/item';
 import Line from '../public/icons/Line.svg';
 export default function Home() {
   return (

@@ -1,9 +1,9 @@
 import {Fragment} from 'react';
-import Footer from './Components/Footer/footer';
-import Header from './Components/Header/header';
-import CharityCompanyHome from './Components/CharityCompanyhome';
-import CharityCompanyItemHome from './Components/CharityCompanyhome/item';
-import CharityHome from './Components/Charityhome';
+import Footer from '../Components/Footer/footer';
+import Header from '../Components/Header/header';
+import CharityCompanyHome from '../Components/CharityCompanyhome';
+import CharityCompanyItemHome from '../Components/CharityCompanyhome/item';
+import CharityHome from '../Components/Charityhome';
 export default function Home() {
   return (
     <Fragment>
